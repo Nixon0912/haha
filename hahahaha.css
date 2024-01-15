@@ -1,0 +1,28 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* Transparent background */
+    font-family: 'Arial', sans-serif;
+}
+
+.message {
+    font-size: 72px; /* Increased font size */
+    color: #d6336c;
+    position: relative;
+}
+
+/* Background with heart images */
+.heart-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('heart-pattern.png'); /* Heart pattern image */
+    background-repeat: repeat;
+    z-index: -1;
+}
